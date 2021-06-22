@@ -1,0 +1,60 @@
+:root {
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+
+nav {
+  background: rgba(128, 128, 0, 1);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.nav-button {
+  font-size: 26px;
+  justify-content: space-between;
+}
+
+main {
+  margin-top: 70px;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+img {
+  max-width: 100%
+}
+
+main > * {
+  grid-column: 2 / 3;
+}
+
+.wide {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+.float {
+  float: left;
+  width:50%;
+  max-width: 400px;
+}
+
+article p {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0;
+}
